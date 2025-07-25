@@ -16,18 +16,21 @@ nav a {
 h1 {
     color: var(--heading-text-color);
 }
-img {
+main {
+    max-width: 840px;
+}
+main img {
     width: 150px;
     height: auto;
     border: var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 } 
 p {
     padding: 0;
-}
-main {
-    max-width: 840px;
+    text-align: justify;
+    margin-right: 20%;
 }
 aside {
     width: 20rem;
@@ -37,21 +40,13 @@ aside {
     background-color: var(--background-color);
     color: #333;
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
     height: auto;
 }
-main img{
-    width: 150px;
-    height: auto;
-    float: right;
-}
-footer {
-    margin-top: 15px;
-    border-top: var(--border-color);
-    text-align: center;
-}
+
 .my-wrapper {
     display: inline-block;
     height: auto;
@@ -72,6 +67,11 @@ footer {
 }
 aside h2 {
     position: absolute;
-    left: 110px;
-    bottom: 0.5px;
+    left: 97px;
+    top: 47px;
+}
+footer {
+    margin-top: 15px;
+    border-top: var(--border-color);
+    text-align: center;
 }
