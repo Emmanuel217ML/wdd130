@@ -57,3 +57,21 @@ footer {
     height: auto;
     font-size: medium;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Class selectors*/
+.box {
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--heading-text-color);
+}
+aside h2 {
+    position: absolute;
+    left: 110px;
+    bottom: 0.5px;
+}
