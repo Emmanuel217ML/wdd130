@@ -123,9 +123,16 @@ header nav a:hover {
     height: 250px;
     width: 300px;
 }
-h2{
+.main-history h2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 570px;
+}
+.main-adventures h2 {
     display: flex;
     justify-content: center;
+    top: 570px;
 }
 footer {
     display: flex;
