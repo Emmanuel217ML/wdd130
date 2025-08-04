@@ -126,7 +126,6 @@ header nav a:hover {
 h2{
     display: flex;
     justify-content: center;
-    text-decoration: bold;
 }
 footer {
     display: flex;
