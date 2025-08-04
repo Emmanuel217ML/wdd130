@@ -134,6 +134,11 @@ header nav a:hover {
     justify-content: center;
     top: 570px;
 }
+figure figcaption {
+    text-align: center;
+    font-style: italic;
+    color: var(--primary_color;
+}
 footer {
     display: flex;
     flex-direction: row;
