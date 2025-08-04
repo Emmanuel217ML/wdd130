@@ -46,7 +46,8 @@ h1 {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+  color: var(--secondary_color); /* white text - make sure there is enough contrast with the background-color */
+  font-weight: bold;
 }
 article {
     position: absolute;
@@ -62,4 +63,92 @@ article h5 {
 .hero article img {
     float: right;
     width: 125px;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    background-color: var(--accent1_color);
+    padding: 10px;   
+}
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    grid-gap: 0;
+}
+header nav a {
+    text-decoration: none;
+    color: var(--secondary_color);
+    font-weight: bold;
+    text-align: center;
+}
+header nav a:hover {
+    color: var(--primary_color);
+    text-decoration: underline;
+    font-weight: 700;
+}
+.main-history {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}    
+.history {
+    width: 300px;
+}
+.item1 {
+    width: 300px;
+    height: auto;
+}
+.item2 img{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+.item3 {
+    width: 300px;
+    height: auto;
+}
+.scroll-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary_color);
+    overflow: auto;
+    white-space: nowrap;
+    height: fit-content;
+}
+.scroll-container img {
+    padding: 3px;
+    height: 250px;
+    width: 300px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-decoration: bold;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+footer p {
+    display: flex; 
+    width: 500px;
+    justify-self: center;
+}
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer nav a  img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    justify-self: flex-end;
+    
 }
