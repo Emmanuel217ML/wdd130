@@ -72,21 +72,23 @@ header {
     padding: 10px;   
 }
 header nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     padding: 20px;
-    grid-gap: 0;
+    flex-wrap: wrap;
 }
 header nav a {
+    display: block;
+    align-items: center;
     text-decoration: none;
     color: var(--secondary_color);
     font-weight: bold;
     text-align: center;
+    padding: 14px;
 }
 header nav a:hover {
     color: var(--primary_color);
     text-decoration: underline;
-    font-weight: 700;
+    font-weight: 800px;
 }
 .main-history {
     display: flex;
