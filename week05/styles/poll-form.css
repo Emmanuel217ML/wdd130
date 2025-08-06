@@ -90,3 +90,11 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }   
+footer {
+    margin: 0 auto;
+    width: 650px;
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid rgb(0 28 64 / 0.2);
+    color: #239BA7;
+}
