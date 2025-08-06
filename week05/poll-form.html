@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel | WDD 130 |  HTML HTML Form-User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Emmanuel Francis | HTML Form-User Poll</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullName">full Name:</label>
+                <input type="text" id="fullName" name="fullName"required>
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser" required>
+                    <option value="browser">Select a browser</option>
+                    <option value="chrome">Google Chrome</option>
+                    <option value="firefox">Mozilla Firefox</option>
+                    <option value="safari">Apple Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                </select>    
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Gwarimpa Nigeria, Accra Ghana, Capetown, South Africa"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2025 | HTML Form-User Poll Activity| Emmanuel Chinonso Francis.</p>
+    </footer>
+</body>
+</html>
