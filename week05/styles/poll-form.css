@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: noto-sans, sans-serif;
+    color: black;
+    background-color: #ffff;
+    font-size: 1.2em;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1{
+    font-family: 'algerian', sans-serif;
+    color: #239BA7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1rem;
+}
+form {
+    display: grid;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgb(0 28 64 / 0.2 );
+    border-radius: 0.5rem;
+    background-color: #E9E9E9;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+fieldset legend {
+    font-weight: bold;
+    color: #239BA7;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: noto-sans, sans-serif;
+    color: #000;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: bottom;
+    background-color:  #3B38A0;
+    color: #3B38A0;
+}
+button {
+   background-color:#239BA7; 
+   color: #E9E9E9;
+   font-weight: bold;
+   font-size: larger;
+   border-radius: 0.5rem;
+}
+button:hover {
+    background-color: #3B38A0;
+    color: #FEA405;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+    vertical-align: multi-column;
+}
+.column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}   
