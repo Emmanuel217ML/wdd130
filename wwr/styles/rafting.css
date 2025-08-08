@@ -165,3 +165,41 @@ footer nav a  img {
     justify-self: flex-end;
     
 }
+/* Beginning of contact us page */
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.search-box h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.search-box button{
+    background-color: #ddd;
+    border-radius: 50px;
+    color: var(--accent1_color);
+    font-weight: bold;
+    font-size: larger;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+.search-box input[type="text"]{
+    border: none;
+    width: 400px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.search-box button:hover {
+    background-color: #ccc;
+    color: #E9E9E9;
+}
+.search-box {
+    background-color: bisque;
+    height: 150px;
+}
