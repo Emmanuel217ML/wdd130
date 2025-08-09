@@ -299,3 +299,51 @@ section {
     height: 30px;
     align-items: center;
 }
+form {
+    display: grid;
+    width: 400px;
+    margin: 0;
+    padding: 1rem;
+    border: 2px solid rgb(223 128 0 / 0.2);
+    border-radius: 0.5rem;
+    background-color: #F2F2F2;
+}
+fieldset {
+    display: grid;
+    grid-gap: .6rem;
+    margin: .8rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: .8rem;
+}
+fieldset legend{
+    font-weight: bold;
+    color: #239BA7;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: var(--heading_font);
+    color: black;
+}
+label {
+    padding: .8rem;
+}
+input,
+select,
+textarea {
+    padding: 0.2rem;
+}
+button {
+    background-color: #239BA7;
+    font-weight: bold;
+    color: #ccc;
+    font-size: larger;
+    border-radius: 0.5rem;
+}
+button:hover {
+    background-color: #689B8A;
+    color: var(--secondary_color);
+    font-size: larger;
+}
