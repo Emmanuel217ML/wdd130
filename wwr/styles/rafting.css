@@ -203,3 +203,73 @@ footer nav a  img {
     background-color: bisque;
     height: 150px;
 }
+#happy-employees-header {
+    text-align: center;
+    background-color: #FBF3D5;
+    height: 130px;
+    margin-bottom: 0;
+}
+#happy-employees-header h2 {
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: xx-large;
+    color: var(--primary_color);
+}
+#happy-employees-header p {
+    color: black;
+    font-weight: bold;
+    padding: 0;
+}
+section {
+    padding: 0;
+    margin: 0;
+}
+.happy-employees {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(138px, 1fr));
+    gap: 10px;
+    background-color: #F2F2F2;
+}
+.happy-employees img{
+    width: 160px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: auto;
+}
+.happy-employees figure figcaption {
+    position: relative;
+    width: 160px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: italic;
+    color: var(--primary_color);
+}
+.happy-employees img:nth-child(even) {
+    transform: translateY(30px);
+}
+.happy-employees img:nth-child(even):hover {
+    transform: translateY(10px);
+    border: 5px solid black;
+}
+.happy-employees img:nth-child(odd):hover {
+    transform: translateY(-10px);
+    border: 5px solid bisque;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+.contact-section h2{
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+.contact-section p {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 1px;
+    align-self: stretch;
+    text-align: justify;
+}
