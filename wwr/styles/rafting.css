@@ -300,9 +300,10 @@ section {
     align-items: center;
 }
 form {
+    min-width: 400px;
     display: grid;
     width: 400px;
-    margin: 0;
+    margin-right: 1rem;
     padding: 1rem;
     border: 2px solid rgb(223 128 0 / 0.2);
     border-radius: 0.5rem;
@@ -346,4 +347,18 @@ button:hover {
     background-color: #689B8A;
     color: var(--secondary_color);
     font-size: larger;
+}
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.testimony img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.figure {
+    
 }
