@@ -143,14 +143,14 @@ figure figcaption {
 }
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: fit-content;
 }
 footer p {
     display: flex; 
-    width: 500px;
     justify-self: center;
+    padding-top: 0px;
+    margin: 20px 0 0 0;
 }
 footer nav {
     display: flex;
@@ -294,15 +294,13 @@ section {
     padding: 0;
 }
 .socialmedia-icons img {
-    display: inline;
-    width: 30px;
-    height: 30px;
-    align-items: center;
+    width: 100px;
+    padding-right: 10px;
+    height: 100px;
+    align-self: center;
 }
 form {
-    min-width: 400px;
     display: grid;
-    width: 400px;
     margin-right: 1rem;
     padding: 1rem;
     border: 2px solid rgb(223 128 0 / 0.2);
@@ -347,18 +345,44 @@ button:hover {
     background-color: #689B8A;
     color: var(--secondary_color);
     font-size: larger;
+    cursor: pointer;
 }
 .form-section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-end;
+    gap: 2rem;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+}
+.form-column{
+    flex:  1;
+}
+.testimony {
+    flex: 1;
+    position: relative;
+}
+.testimony figure {
+    display: none;
+    text-align: center;
+}
+.testimony figure.active {
+    display: block;
 }
 .testimony img {
-    display: flex;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
 }
-.figure {
-    
+.testimony button {
+    width: 250px;
+    position: relative;
+    color: #fff;
+    background-color: #689B8A;
+}
+footer {
+    background-color: #ddd;
+    padding: 0;
+}
+footer h5{
+    display: flex;
+    justify-content: end;
 }
