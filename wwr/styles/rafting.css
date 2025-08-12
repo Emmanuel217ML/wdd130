@@ -4,6 +4,7 @@
     --accent1_color: #043565;
     --acent2_color: #e53d00;
     --heading_font: 'Noto Sans JP', sans-serif;
+    --button_hover_color: #E9E9E9;
     --body_font: 'PT Serif', serif;
 }
 * {
@@ -129,7 +130,7 @@ header nav a:hover {
     display: flex;
     position: absolute;
     justify-content: center;
-    top: 570px;
+    top: 725px;
 }
 .main-adventures h2 {
     display: flex;
@@ -180,7 +181,7 @@ footer nav a  img {
     padding: 10px;
 }
 .search-box button{
-    background-color: #ddd;
+    background-color: var(--primary_color);
     border-radius: 50px;
     color: var(--accent1_color);
     font-weight: bold;
@@ -197,8 +198,8 @@ footer nav a  img {
     font-size: 16px;
 }
 .search-box button:hover {
-    background-color: #ccc;
-    color: #E9E9E9;
+    background-color: #689B8A;
+    color: var(--button_hover_color);
 }
 .search-box {
     background-color: bisque;
@@ -206,7 +207,7 @@ footer nav a  img {
 }
 #happy-employees-header {
     text-align: center;
-    background-color: #FBF3D5;
+    background-color: bisque;
     height: 130px;
     margin-bottom: 0;
     padding: 1px;
@@ -220,7 +221,6 @@ footer nav a  img {
     color: var(--primary_color);
 }
 #happy-employees-header p {
-    color: black;
     font-weight: bold;
     padding: 0;
 }
@@ -232,7 +232,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(138px, 1fr));
     gap: 10px;
-    background-color: #F2F2F2;
+    background-color: bisque;
     padding-bottom: 10px;
 }
 .happy-employees img{
@@ -268,7 +268,7 @@ section {
     align-items: start;
     padding-left: 10px;
     margin: 0;
-    background-color: #F2F2F2;
+    
 }
 .contact-details {
     display: flex;
@@ -308,7 +308,6 @@ form {
     padding: 1rem;
     border: 2px solid rgb(223 128 0 / 0.2);
     border-radius: 0.5rem;
-    background-color: #F2F2F2;
 }
 fieldset {
     display: grid;
@@ -319,7 +318,7 @@ fieldset {
 }
 fieldset legend{
     font-weight: bold;
-    color: #239BA7;
+    color: var(--primary_color);
 }
 label,
 input,
@@ -338,9 +337,9 @@ textarea {
     padding: 0.2rem;
 }
 button {
-    background-color: #239BA7;
+    background-color: var(--primary_color);
     font-weight: bold;
-    color: #ccc;
+    color: var(--button_hover_color);
     font-size: larger;
     border-radius: 0.5rem;
 }
@@ -354,7 +353,6 @@ button:hover {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
-    background-color: #F2F2F2;
 }
 .form-column{
     flex:  1;
@@ -379,10 +377,9 @@ button:hover {
     width: 250px;
     position: relative;
     color: #fff;
-    background-color: #689B8A;
+    background-color: var(--primary_color);
 }
 footer {
-    background-color: #ddd;
     padding: 0;
 }
 footer h5{
