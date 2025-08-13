@@ -5,6 +5,7 @@
     --acent2_color: #e53d00;
     --heading_font: 'Noto Sans JP', sans-serif;
     --button_hover_color: #E9E9E9;
+    --normal_color: black;
     --body_font: 'PT Serif', serif;
 }
 * {
@@ -174,6 +175,8 @@ footer nav a  img {
     margin: 20px auto;
 }
 .search-box h2{
+    color: var(--accent1_color);
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,7 +221,7 @@ footer nav a  img {
     margin: 0;
     font-weight: bold;
     font-size: xx-large;
-    color: var(--primary_color);
+    color: var(--accent1_color);
 }
 #happy-employees-header p {
     font-weight: bold;
@@ -232,6 +235,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(138px, 1fr));
     gap: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
     background-color: bisque;
     padding-bottom: 10px;
 }
@@ -244,11 +249,12 @@ section {
 .happy-employees figure figcaption {
     position: relative;
     width: 160px;
+    font-weight: bold;
     font-size: small;
     text-align: center;
     padding-bottom: 10px;
     font-style: italic;
-    color: var(--primary_color);
+    color: var(--accent1_color);
 }
 .happy-employees img:nth-child(even) {
     transform: translateY(30px);
@@ -385,4 +391,71 @@ footer {
 footer h5{
     display: flex;
     justify-content: end;
+}
+/* Beginning of Home page*/
+.image-section {
+    position: relative;
+    width: 100%;
+}
+.text-section {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 1px solid var(--button_hover_color);
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 63%;
+    padding: 40px;
+    text-align: center;
+}
+.text-section a{
+    color: var(--button_hover_color);
+    text-decoration-line: none;
+}
+#image-section-button {
+    position: absolute;
+    background-color: var(--normal_color);
+    color: var(--button_hover_color);
+    font-weight: bold;
+    font-size: larger;
+    padding: 14px 20px 14px 22px;
+    border-radius: 10px;
+    top: 66%;
+    border: none;
+    margin-left: 25px;
+    cursor: pointer;
+}
+#book-with-us {
+    position: absolute;
+    background-color: var(--normal_color);
+    color: var(--button_hover_color);
+    font-weight: bold;
+    font-size: larger;
+    padding: 14px 20px 14px 22px;
+    border-radius: 10px;
+    top: 18rem;
+    right: 270px;
+    border: none;
+    cursor: pointer;
+}
+.services {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+.services img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid var(--primary_color);
+}
+.services h3 {
+    text-align: center;
+    color: var(--primary_color);
+    font-weight: bold;
 }
