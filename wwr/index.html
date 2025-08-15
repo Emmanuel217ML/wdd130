@@ -77,9 +77,9 @@
                 <img src="images/testimony_five.webp" alt="slideshow image">
             </div> 
         </div>
-        
-        <form action="action_page.php">
-            <div class="imgcontainer">
+        <div class="modal">
+        <form class="form-overlay" action="action_page.php">
+        <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="images/img_avatar.webp" alt="Avatar" class="avatar">
         </div>
@@ -90,8 +90,10 @@
 
             <label for="em"><b>Email</b></label>
             <input type="password" placeholder="Enter Email" name="em" required>
-        
-            <button type="submit">Login</button>
+            <div class="yacth">
+            <button onclick="document.location='trips.html'" type="submit">SIGN UP</button>
+            </div>
+            
             <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
@@ -102,10 +104,11 @@
             <span class="psw">Forgot <a href="#">Username?</a></span>
         </div>
         </form>     
+        </div>
         </section>
     </main>
     <footer>
-        <p>Copyright © 2025 Emmanuel Chinoso Francis. All rights reserved.</p>
+        <p>© 2025 | White Water Rafting | Emmanuel Chinoso Francis.</p>
         <nav class="socialmedia">
             <p>Still can't find what you're looking for?  Contact Us</p>
             <a href="https://www.facebook.com" target="_blank"><img src="images/facebook_icon.webp" alt="Facebook social media icon"></a>
