@@ -59,6 +59,50 @@
                 </div>
             </div>
         </section>
+        <section class="divider">
+        <div class="slideshow">
+           <div class="slide">
+                <img src="images/testimony_one.webp" alt="slideshow image">
+            </div>
+            <div class="slide">
+                <img src="images/testimony_two.webp" alt="slideshow image">
+            </div>
+            <div class="slide">
+                <img src="images/testimony_three.webp" alt="slideshow image">
+            </div>
+            <div class="slide">
+                <img src="images/testimony_four.webp" alt="slideshow image">
+            </div>
+            <div class="slide">
+                <img src="images/testimony_five.webp" alt="slideshow image">
+            </div> 
+        </div>
+        
+        <form action="action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="images/img_avatar.webp" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="em"><b>Email</b></label>
+            <input type="password" placeholder="Enter Email" name="em" required>
+        
+            <button type="submit">Login</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">Username?</a></span>
+        </div>
+        </form>     
+        </section>
     </main>
     <footer>
         <p>Copyright © 2025 Emmanuel Chinoso Francis. All rights reserved.</p>
@@ -70,5 +114,6 @@
             <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.webp" alt="LinkedIn social media icon"></a>
         </nav> 
     </footer>
+<script src="home.js"></script>    
 </body>
 </html>
