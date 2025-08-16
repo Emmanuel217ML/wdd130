@@ -48,13 +48,12 @@ h1 {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: var(--secondary_color); /* white text - make sure there is enough contrast with the background-color */
+ /* white text - make sure there is enough contrast with the background-color */
   font-weight: bold;
 }
 article {
     position: absolute;
     top: 150px;
-    padding: 10px;
     background-color: rgba(0, 0, 255, 0.5);
     color: white;
 }
@@ -147,10 +146,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
 }
 footer p {
     display: flex; 
+    justify-content: center;
+    align-items: center;
     justify-self: center;
     padding-top: 10px;
     margin: 20px 0 0 0;
@@ -227,10 +227,6 @@ footer nav a  img {
 #happy-employees-header p {
     font-weight: bold;
     padding: 0;
-}
-section {
-    padding: 0;
-    margin: 0;
 }
 .happy-employees {
     display: grid;
