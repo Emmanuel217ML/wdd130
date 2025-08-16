@@ -30,7 +30,104 @@
                 <button type="submit">Search</button>  
             </div>
         </div>   
-
+        <div class="trips-hero">
+            <img src="images/trips_hero.webp" alt="">
+        </div>
+        <div class="trips-header">
+            <h1><b>Book A Trip</b></h1>
+        </div>
+        <div class="rsvp-special"><p>Reservations can be made below with our booking widgets or via phone by calling 800-892-9223. Reservations made <br>online require at least 3 days advanced notice. Some dates are unavailable if fully booked.</p></div>
+        <div class="book-now">
+            <button onclick="document.location='contact.html'">Book Now</button>
+        </div>
+        <hr>
+        <section class="trips-section">
+            <h2>MAIN LUCAS TRIPS (RAWINGS AREA)</h2>
+            <div class="trips">
+                <div class="trip-item">
+                    <h3>1/2 DAY RAFT TRIP</h3>
+                    <img src="images/one_o_two.webp" alt="Trip 1">
+                    <button onclick="document.location='contact.html'">Book Now</button>
+                </div>
+                <div class="trip-item">
+                    <h3>1 DAY RAFT TRIP</h3>
+                    <img src="images/one_day.webp" alt="Trip 2">
+                    <button onclick="document.location='contact.html'">Book Now</button>
+                </div> 
+                <div class="trip-item">
+                    <h3>2 DAY RAFT TRIP</h3>
+                    <img src="images/two_day.webp" alt="Trip 3">
+                    <button onclick="document.location='contact.html'">Book Now</button>
+                </div>   
+            </div>
+        </section>
+        <section class="trips-section">
+            <h2>MAIN EMMANUEL TRIPS (LUKANG AREA)</h2>
+            <div class="trips">
+                <div class="trip-item">
+                    <h3>3 DAY RAFT TRIP</h3>
+                    <img src="images/three_day.webp" alt="Trip 1">
+                    <button onclick="document.location='contact.html'">Book Now</button>
+                </div>
+                <div class="trip-item">
+                    <h3>4 or 5 DAY RAFT TRIP</h3>
+                    <img src="images/four_days.webp" alt="Trip 2">
+                    <button onclick="document.location='contact.html'">Book Now</button>
+                </div>  
+            </div>
+        </section>
+        <section class="trips-table-section">
+            <h2>Available Trips</h2>
+            <p>You must book a minimum of 4 guests for this online trip.</p>
+            <table class="trips-table">
+                <caption>
+                    <a href="trips.html">30% discounts off the booking price for returning clients.</a>
+                </caption>
+                <tr>
+                    <th>Class(age):</th>
+                    <th>Locations</th>
+                    <th>Booking prices</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Kids (5-10)</td>
+                    <td>
+                        <label for="userlocation_one">Location:</label>
+                        <select id="userlocation_one" name="user">
+                            <option value="select">Select a location</option>
+                            <option value="rawings">Rawings Area</option>
+                            <option value="lukang">Lukang Area</option>
+                        </select>  
+                    </td>
+                    <td>$75</td>
+                    <td rowspan="3"><button onclick="document.location='contact.html'">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Youth (11-17)</td>
+                    <td>
+                        <label for="userlocation_two">Location:</label>
+                        <select id="userlocation_two" name="user">
+                            <option value="select">Select a location</option>
+                            <option value="rawings">Rawings Area</option>
+                            <option value="lukang">Lukang Area</option>
+                        </select>  
+                    </td>
+                    <td>$65</td>  
+                </tr>
+                <tr>
+                    <td>Per Person</td>
+                    <td>
+                        <label for="userlocation_three">Location:</label>
+                        <select id="userlocation_three" name="user">
+                            <option value="select">Select a location</option>
+                            <option value="rawings">Rawings Area</option>
+                            <option value="lukang">Lukang Area</option>
+                        </select>  
+                    </td>
+                    <td>$55</td>  
+                </tr>        
+            </table>
+        </section>
     </main>
     <footer>
         <nav class="socialmedia">

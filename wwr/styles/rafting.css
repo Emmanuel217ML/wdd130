@@ -572,3 +572,129 @@ span.psw {
 .newsletter a {
     text-decoration: none;
 }
+.trips-hero img{
+    width: 100%;
+    height: 200px;
+}
+.trips-header {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 63%;
+    padding: 40px;
+    text-align: center;
+}
+.trips-header h1 {
+    color: #0A400C;
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.rsvp-special {
+    text-align: center;
+    margin: 10px;
+}
+.rsvp-special p {
+    font-family: serif;
+    font-size: 15px;
+}
+.book-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+.book-now button{
+    margin: 0;
+    background-color: var(--primary_color);
+    color: var(--button_hover_color);
+    font-weight: bold;
+    font-size: larger;
+    padding: 14px 200px 14px 200px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+hr {
+    margin: 20px;
+}
+.trips-section h2{
+    text-align: center;
+    align-items: center;
+}
+.trips {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.trips img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid var(--primary_color);
+}
+.trips h3 {
+    margin: 10px;
+    margin-top: 15px;
+    text-align: center;
+    color: var(--primary_color);
+    font-weight: bold;
+}
+.trip-item {
+    text-align: center;
+    align-items: center;
+}
+.trip-item  button{
+    margin: 5px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+.trips-table-section  h2{
+    text-align: center;
+    align-items: center;
+    font-size: 29px;
+    margin: 20px;
+}
+.trips-table-section p {
+    font-size: 20px;
+    margin: 10px;
+}
+caption a {
+    text-decoration: none;
+    color: var(--primary_color);
+    font-weight: bold;
+}
+table button {
+    text-align: center;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
